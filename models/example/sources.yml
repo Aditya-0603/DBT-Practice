@@ -1,0 +1,9 @@
+
+version: 2
+
+sources:
+  - name: customer_data
+    database: dbt_practice
+    schema: raw
+    tables:
+      - name: customers
