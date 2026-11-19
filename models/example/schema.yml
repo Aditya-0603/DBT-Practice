@@ -1,4 +1,3 @@
-
 version: 2
 
 models:
@@ -10,5 +9,13 @@ models:
           - unique
 
       - name: customer_name
+        tests:
+          - not_null
+
+      - name: city
+        tests:
+          - not_null
+
+      - name: age
         tests:
           - not_null
