@@ -24,5 +24,4 @@ WHERE customer_id IS NOT NULL
   AND customer_name != ''
   AND city IS NOT NULL
   AND city != ''
-  AND age IS NOT NULL
   AND age >= 0
