@@ -10,7 +10,7 @@ WITH cleaned_customers AS (
     FROM {{ source('customer_data', 'customers') }}
 
 )
-
+/*
 SELECT
     customer_id,
     customer_name,
@@ -18,10 +18,11 @@ SELECT
     age
 
 FROM cleaned_customers
-
-WHERE customer_id IS NOT NULL
-  AND customer_name IS NOT NULL
-  AND customer_name != ''
-  AND city IS NOT NULL
-  AND city != ''
-  AND age >= 0
+--
+--WHERE customer_id IS NOT NULL
+ -- AND customer_name IS NOT NULL
+ -- AND customer_name != ''
+ -- AND city IS NOT NULL
+ -- AND city != ''
+ -- AND age >= 0
+*/
