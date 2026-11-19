@@ -25,4 +25,4 @@ FROM cleaned_customers
  -- AND city IS NOT NULL
  -- AND city != ''
  -- AND age >= 0
-*/
+/*
